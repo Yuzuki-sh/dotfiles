@@ -15,8 +15,11 @@ alias gr='git remote && git remote -v'
 alias sz='source ~/.zshrc'
 alias vz='vi ~/.zshrc'
 
-alias mi='open -a mi'
-alias sbl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias p='python'
 
 PROMPT="%F{green}[%~]%f %# "
 
+alias mi='open -a mi'
+alias sbl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+alias c='clear'
