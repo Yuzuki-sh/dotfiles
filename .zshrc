@@ -3,7 +3,7 @@ alias d-c='docker-compose'
 alias de='cd && cd desktop'
 
 alias g='git'
-alias c='checkout'
+alias gch='git checkout'
 alias gb='git branch'
 alias gs='git status'
 alias gl='git log --graph --all --decorate'
