@@ -24,3 +24,5 @@ alias sbl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 alias c='clear'
 alias ..='cd ..'
+alias gcmtm='git commit -m'
+alias gcmt='git commt'
