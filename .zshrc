@@ -23,3 +23,4 @@ alias mi='open -a mi'
 alias sbl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 alias c='clear'
+alias ..='cd ..'
