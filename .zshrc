@@ -27,3 +27,6 @@ alias ..='cd ..'
 alias gcmtm='git commit -m'
 alias gcmt='git commit'
 alias r='rails'
+
+alias dvi='platex *tex'
+alias pdf='dvipdfmx *dvi'
