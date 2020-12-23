@@ -30,3 +30,5 @@ alias r='rails'
 
 alias dvi='platex *tex'
 alias pdf='dvipdfmx *dvi'
+
+alias gi='git remote -v && echo "---------------" && git branch && echo "---------------" && git status'
