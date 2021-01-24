@@ -33,4 +33,4 @@ alias pdf='dvipdfmx *dvi'
 
 alias gi='git remote -v && echo "---------------" && git branch && echo "---------------" && git status'
 alias ts='ts-node'
-alias cdp='cd "$(find . -type d | peco)"'
+alias cdd='cd "$(find . -type d | peco)"'
