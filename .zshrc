@@ -1,6 +1,6 @@
 alias d-c='docker-compose'
 
-alias de='cd && cd desktop'
+alias de='cd ~/desktop'
 
 alias g='git'
 alias gch='git checkout'
