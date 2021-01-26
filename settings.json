@@ -1,0 +1,76 @@
+{
+    "files.autoSave": "onFocusChange",
+    "java.semanticHighlighting.enabled": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "emmet.includeLanguages": {
+        "erb": "html",
+        "html.erb": "html"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "vsicons.dontShowNewVersionMessage": true,
+    "python.languageServer": "Pylance",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "python.showStartPage": false,
+    "terminal.integrated.inheritEnv": false,
+    "files.watcherExclude": {
+        "**/Downloads/**": true,
+        "**/Library/**": true,
+        "**/Music/**": true,
+        "**/Pictures/**": true,
+        "**/Public/**": true,
+        "**/VirtualBox\\ VMs/**": true
+    },
+    "editor.mouseWheelZoom": true,
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+    "jupyter.sendSelectionToInteractiveWindow": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        },
+        {
+            "viewType": "jupyter-notebook",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+}
